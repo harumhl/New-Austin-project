@@ -82,7 +82,7 @@ function Overview() {
           </li>
         </ul>
       </Panel>
-      <Panel header="Walkable to all locations" collapsible bordered>
+      <Panel header="Carfree and Walkable everywhere" collapsible bordered>
         <p className="m-0">
           Car-centric culture in America created obesity problems as well as
           many others and we want more intimate and close neighborhoods and
