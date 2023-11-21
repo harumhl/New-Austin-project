@@ -6,6 +6,23 @@ A project to create the most inclusive, progressive and thought-out city in the 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# How to start
+
+`nvm use 18 && npm install && npm start`
+
+# How to deploy
+
+## Just for first time
+
+`firebase login` or `firebase login --reauth`
+`firebase init`
+
+## Deploy
+
+`nvm use 18 && npm install && npm run build && firebase deploy`
+
+TODO update if I move away from Firebase hosting
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,10 +85,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-#### Firebase
-
-`firebase login` or `firebase login --reauth`
 
 ### `npm run build` fails to minify
 
