@@ -10,7 +10,7 @@ function App() {
     <Container style={{ textAlign: "center", height: "100vh" }}>
       <Header>
         <h1 style={{ paddingTop: "10px", paddingBottom: "10px" }}>
-          "New Austin" manifesto
+          "New Austin" project
         </h1>
         <Overview />
         <div style={{ paddingTop: "30px" }}></div>

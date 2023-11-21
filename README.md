@@ -1,6 +1,6 @@
-# New-Austin-manifesto
+# New-Austin-project
 
-A manifesto to create the most inclusive, progressive and thought-out city in the world. If I win a lottery over $100 million, I'll start this project
+A project to create the most inclusive, progressive and thought-out city in the world. If I win a lottery over $100 million, I'll start this project
 
 # Getting Started with Create React App
 
@@ -68,6 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+#### Firebase
+
+`firebase login` or `firebase login --reauth`
 
 ### `npm run build` fails to minify
 
