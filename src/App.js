@@ -38,6 +38,16 @@ function App() {
         (or any other means). "New Austin" is an arbitrary choice of the name
         for the city and may change (though I believe it conveys the message
         well).
+        <br />
+        <br />
+        If you are an average Joe, you don't need to try sending me money.
+        However, if you are a millionaire or a billionaire and want to support
+        this (with no strings attached), you can contact me at
+        haru.mhl@gmail.com to set up a wire transfer. You can send me $10,000 to
+        my email via PayPal to show your seriousness if you want to kick off the
+        wire transfer process faster. It'll be a no strings attached donation,
+        but you will get your name recognized on this website (which would also
+        aid the transparency purpose too).
       </Footer>
     </Container>
   );
