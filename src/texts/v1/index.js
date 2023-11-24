@@ -1,4 +1,5 @@
 import TabsAndBody from "../../shared/tabs";
+import Images from "./images";
 import Stipend from "./stipend";
 import Community from "./community";
 import Work from "./work";
@@ -14,6 +15,9 @@ function V1() {
     None: {
       component: () => {},
       name: "-",
+    },
+    Images: {
+      component: Images,
     },
     Stipend: {
       component: Stipend,
