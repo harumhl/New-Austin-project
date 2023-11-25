@@ -6,8 +6,8 @@ function Overview() {
   return (
     <div id="overview">
       <p>
-        This manifesto gives us an overview and the details of building a
-        progressive, inclusive and well thought-out city
+        This manifesto gives us an overview and the details of building a most
+        inclusive, progressive, walkable and thought-out city
       </p>
       <p>The top four ideas are:</p>
       <Panel header="Universal Basic Income" collapsible bordered>
@@ -16,6 +16,10 @@ function Overview() {
           ourselves to work just to earn money for food and housing. With
           monthly universal basic income, you will get enough stipends to live
           in a small apartment with enough simple food to survive.
+          <br />
+          In the most inclusive sense, the universal basic income will also
+          cover other basic necessities such as medical needs, education, and
+          transportation.
         </p>
         <br />
         <div style={{ textAlign: "justify" }}>
@@ -23,7 +27,7 @@ function Overview() {
             We believe this works because people are not minimalistic (right
             now). People want to live nicer than what is given to them.
           </p>
-          <ul style={{ textAlign: "justify", listStylePosition: "inside" }}>
+          <ul>
             <li>We are not talking about sports cars, castles, rockets here</li>
             <li>BUT</li>
             <li>clothes</li>
@@ -38,18 +42,18 @@ function Overview() {
         </div>
         <p>
           In their best conditions, most people will be excited to <i>work</i>.
-          And the community tax will be able to fund the universal basic income,
-          which will also be ready for themselves if they want to take a break
-          from motivated life.
+          <br />
+          The community tax will fund the universal basic income, which will
+          allow people to take breaks from work as needed.
         </p>
       </Panel>
       <Panel header="Sense of Community" collapsible bordered>
         <p className="m-0">
           We yarn to belong somewhere and the capitalistic world discourages us
-          from having time to join a community ahd have fun.
+          from having time to join a community and have fun.
         </p>
         <br />
-        <ul style={{ textAlign: "justify", listStylePosition: "inside" }}>
+        <ul>
           <li>
             There will be apartment RAs who would help you meet and connect with
             your neighbors - Just like many college dorms have RAs (Resident
@@ -64,17 +68,20 @@ function Overview() {
       </Panel>
       <Panel header="Inclusive to All walks of life" collapsible bordered>
         <p className="m-0">
-          Being inclusive is important, but we don't have enough resources to
-          understand other people
+          Being inclusive is important; we yarn to be understood by others, we
+          yarn to be included by others, and yarn to be free to be ourselves.
+          But we don't have enough resources to understand other people.
         </p>
-        <ul style={{ textAlign: "justify", listStylePosition: "inside" }}>
+        <ul>
           <li>
             Each student will be required to master a second language by the
             time they graduate high school
           </li>
           <li>
             There will be community classes where you can learn and practice
-            your language of choice (e.g. ASL)
+            your language of choice (e.g. ASL). It will be like a community
+            college where it runs by a <i>semester</i> or so and you will be
+            asked to participate fully once you start
           </li>
           <li>
             There will be community gatherings where people can share their
@@ -84,14 +91,18 @@ function Overview() {
       </Panel>
       <Panel header="Carfree and Walkable everywhere" collapsible bordered>
         <p className="m-0">
-          Car-centric culture in America created obesity problems as well as
-          many others and we want more intimate and close neighborhoods and
-          cities now
+          Car-centric culture in America has created obesity and many other
+          problems, and we want more intimate and close neighborhoods and
+          cities.
         </p>
-        <ul style={{ textAlign: "justify", listStylePosition: "inside" }}>
-          <li>There will be no cars allowed in the town</li>
+        <ul>
           <li>
-            Only emergency personnel can ride electronic vehicles (e.g. E-bike)
+            There will be no cars allowed in the town. Everyone will park their
+            cars on the edge(s) of the city.
+          </li>
+          <li>
+            Only emergency personnel can ride electronic vehicles (e.g.
+            electronic bikes)
           </li>
           <li>
             All logistics will happen underground (e.g. goods delivery to

@@ -1,6 +1,7 @@
 import TabsAndBody from "../../shared/tabs";
 import Images from "./images";
 import Stipend from "./stipend";
+import Apartment from "./apartment";
 import Community from "./community";
 import Work from "./work";
 import Transportation from "./transportation";
@@ -9,6 +10,11 @@ import Inclusivity from "./inclusivity";
 import Infrastructure from "./infrastructure";
 import Walkable from "./walkable.js";
 import Safety from "./safety";
+import Questions from "./questions";
+import Tourism from "./tourism";
+import Farm from "./farm";
+import Technology from "./technology";
+import Legal from "./legal";
 
 function V1() {
   const V1_TAB_ENUM = {
@@ -21,6 +27,9 @@ function V1() {
     },
     Stipend: {
       component: Stipend,
+    },
+    Apartment: {
+      component: Apartment,
     },
     Community: {
       component: Community,
@@ -47,13 +56,28 @@ function V1() {
     Safety: {
       component: Safety,
     },
+    Technology: {
+      component: Technology,
+    },
+    Legal: {
+      component: Legal,
+    },
+    Tourism: {
+      component: Tourism,
+    },
+    Farm: {
+      component: Farm,
+    },
+    Q: {
+      component: Questions,
+    }
   };
 
   return (
     <TabsAndBody
       enums={V1_TAB_ENUM}
       defaultEnum={Object.keys(V1_TAB_ENUM)[0]}
-      title="Version 1"
+      title="Version 1 (the first few years)"
     />
   );
 }

@@ -1,8 +1,9 @@
 function Stipend() {
   return (
     <div>
-      Everyone will get a small apartment with enough simple food to survive.
-      <ul style={{ textAlign: "justify", listStylePosition: "inside" }}>
+      Everyone will get stipends to cover a small apartment with enough simple
+      food to survive.
+      <ul>
         <li>
           People with income will be able to combine their stipend and their
           income to move to a bigger apartment
@@ -14,18 +15,18 @@ function Stipend() {
         <li>
           If someone doesn't want to work at all and doesn't mind a small
           apartment with simple meals, they will be able to live off of stipends
-          for ever
+          for ever (?)
           <ul>
             <li>
-              After getting out of their burnout, they will likely contribute to
-              the society in other means
+              After getting out of their burnout, it is guessed that they will
+              likely contribute to the society in other means (e.g. volunteer)
             </li>
           </ul>
         </li>
         <li>People will not be able to use their stipends to dine out</li>
         <li>
-          There will be hardly any strings attached for getting housing for free
-          (except heavy illegal activities)
+          There won't be strings attached for getting stipends (except heavy
+          illegal activities)
         </li>
         <li>
           Everyone with income will be paying community tax which will go
@@ -39,7 +40,7 @@ function Stipend() {
           </ul>
         </li>
         <li>
-          Initially, <i>I</i> will be purchasing most of the apartments so the
+          Initially, I (Haru) will be purchasing most of the apartments so the
           community tax will go towards maintaining the apartment buildings as
           well as foods. I will not need to collect money for owning the
           apartments.
@@ -55,30 +56,35 @@ function Stipend() {
         <li>
           There will be a high transparency on where the community tax is going.
           The community tax will NOT be used for military, highways, gas
-          stations, (general parking lots) etc.
+          stations, car wash, (general parking lots) etc.
         </li>
         <li>
-          Most apartments will have white roofs for better climate control
-        </li>
-        <li>
-          There will be hardly any houses and purchasing houses will be highly
-          discouraged (e.g. high property tax) as one person owning a large sum
-          of land will likely push people to live further away from each other.
+          Things that MAY NOT be covered by stipends in the first few years
           <ul>
-            <li>
-              For noise concerns, the newer apartments will be built with better
-              noise handling technologies
-            </li>
+            <li>schools</li>
+            <li>medical bills</li>
+            <li>other essential items (e.g. tampoms)</li>
           </ul>
         </li>
         <li>
-          In the long run, "essential" items that aren't foods will be covered
-          by stipends (e.g. tampons). In the first few years, the plan is to ___
+          I'm open to support people who are going through burnout, but I don't
+          want this city to be a dead city (e.g. 80% of the residents are never
+          leaving their apartment while recovering) and I want the community tax
+          to fully cover the stipends in the long run (e.g. different 20% of the
+          population are on recovery mode at different times while the other 80%
+          of the people can support that 20%). I am open to support the stipends
+          the first few years, but I'd like to use my money for building more
+          infrastructure and new cities.
         </li>
         <li>
-          Your apartment <i>number</i> will be four digit alphanumeric letters.
-          For example, someone who lives in area B, building G, 4th floor and
-          8th apartment will have an apartment <i>number</i> of BG48.
+          Those who don’t pay community taxes will have more requirements
+          (mostly because of mental health concern and to push for building a
+          community, and not necessarily "punishing" them for taking free money)
+          <ul>
+            <li>Required to attend the gym at least once a week</li>
+            <li>Required to attend one apartment RA event a week</li>
+            <li>Required to attend one community event a week</li>
+          </ul>
         </li>
       </ul>
     </div>
