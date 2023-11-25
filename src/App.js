@@ -1,5 +1,5 @@
 import "rsuite/dist/rsuite.min.css";
-import { Container, Header, Content, Footer } from "rsuite";
+import { Container, Header, Content, Footer, Panel } from "rsuite";
 
 import "./App.css";
 import Overview from "./texts/overview";
@@ -34,20 +34,34 @@ function App() {
         <V1 />
       </Content>
       <Footer style={{ bottom: 0 }}>
-        Context: I plan on building this city once I win $100 million on lottery
-        (or any other means). "New Austin" is an arbitrary choice of the name
-        for the city and may change (though I believe it conveys the message
-        well).
-        <br />
-        <br />
-        If you are an average Joe, you don't need to try sending me money.
-        However, if you are a millionaire or a billionaire and want to support
-        this (with no strings attached), you can contact me at
-        haru.mhl@gmail.com to set up a wire transfer. You can send me $10,000 to
-        my email via PayPal to show your seriousness if you want to kick off the
-        wire transfer process faster. It'll be a no strings attached donation,
-        but you will get your name recognized on this website (which would also
-        aid the transparency purpose too).
+        <Panel header="Footer" collapsible bordered>
+          <p className="m-0">
+            Context: I plan on building this city once I win $100 million on
+            lottery (or any other means). "New Austin" is an arbitrary choice of
+            the name for the city and may change (though I believe it conveys
+            the message well).
+            <br />
+            <br />
+            You can find the source code (aka the code and the history of this website) at{" "}
+            <a
+              href="https://github.com/harumhl/New-Austin-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              here
+            </a>
+            <br />
+            <br />
+            If you are an average Joe, you don't need to try sending me money.
+            However, if you are a millionaire or a billionaire and want to
+            support this (with no strings attached), you can contact me at
+            haru.mhl@gmail.com to set up a wire transfer. You can send me
+            $10,000 to my email via PayPal to show your seriousness if you want
+            to kick off the wire transfer process faster. It'll be a no strings
+            attached donation, but you will get your name recognized on this
+            website (which would also aid the transparency purpose too).
+          </p>
+        </Panel>
       </Footer>
     </Container>
   );
