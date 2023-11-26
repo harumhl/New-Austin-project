@@ -29,6 +29,7 @@ function TabsAndBody({ enums, defaultEnum, title }) {
         return (
           <div
             key={enumKey}
+            id={`${enumKey} tab`} // used for global search
             style={{ display: active === enumKey ? "block" : "none" }}
           >
             <Component />

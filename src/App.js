@@ -8,11 +8,21 @@ import "./App.css";
 import Overview from "./texts/overview";
 import V1 from "./texts/v1";
 
-const highlight = (words) => {
+const highlight = (words, setGlobalSearchResults) => {
   let counter = 0;
+  const tempGlobalSearchResults = [];
   /** Highlight words in the DOM */
   // TODO handle multi words - currently I just handle the first one
   // TODO this does not "clear" on the new search - the old highlights stay
+
+  function _findMeaningfulParent(node) {
+    while (node.parentNode) {
+      if (node.id) {
+        return node;
+      }
+      node = node.parentNode;
+    }
+  }
 
   function _caseInsensitiveSplit(text, word) {
     return text.split(new RegExp(word, "i"));
@@ -30,6 +40,11 @@ const highlight = (words) => {
             const beforeAndAfter = _caseInsensitiveSplit(
               match.textContent,
               words[0]
+            );
+            const meaningfulParentNode = _findMeaningfulParent(match);
+            tempGlobalSearchResults.push(
+              (meaningfulParentNode ? `${meaningfulParentNode.id}: ` : "") +
+                match.textContent
             );
 
             // Before the first match
@@ -69,11 +84,13 @@ const highlight = (words) => {
 
   const root = document.getElementById("root");
   _traverseAndHighlight(root);
+  setGlobalSearchResults(tempGlobalSearchResults);
   toast.info(`Found ${counter} matches`);
 };
 
 function App() {
   const [globalSearch, setGlobalSearch] = useState("");
+  const [globalSearchResults, setGlobalSearchResults] = useState([]);
 
   return (
     <Container style={{ textAlign: "center", height: "100vh" }}>
@@ -126,11 +143,19 @@ function App() {
                   toast.warning("Please enter a search term");
                   return;
                 }
-                highlight([globalSearch]);
+                setGlobalSearchResults([]);
+                highlight([globalSearch], setGlobalSearchResults);
               }}
             >
               Submit
             </button>
+            {globalSearchResults.length > 0 && (
+              <ul>
+                {globalSearchResults.map((result) => (
+                  <li>{result}</li>
+                ))}
+              </ul>
+            )}
           </div>
           <br />
           <p className="m-0">
