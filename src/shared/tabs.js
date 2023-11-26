@@ -1,13 +1,8 @@
 import { useState } from "react";
 import { Nav } from "rsuite";
 
-function getComponent(enums, active) {
-  return enums[active].component;
-}
-
 function TabsAndBody({ enums, defaultEnum, title }) {
   const [active, setActive] = useState(defaultEnum);
-  const BodyComponent = getComponent(enums, active);
 
   return (
     <div>
@@ -28,7 +23,18 @@ function TabsAndBody({ enums, defaultEnum, title }) {
         })}
       </Nav>
 
-      <BodyComponent style={{paddingRight: '30px'}} />
+      {Object.keys(enums).map((enumKey) => {
+        // Rendering ALL components to allow global search
+        const Component = enums[enumKey].component;
+        return (
+          <div
+            key={enumKey}
+            style={{ display: active === enumKey ? "block" : "none" }}
+          >
+            <Component />
+          </div>
+        );
+      })}
     </div>
   );
 }
