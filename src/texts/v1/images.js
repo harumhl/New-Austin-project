@@ -35,6 +35,12 @@ function Images() {
       ></img>
       <br />
       <img
+        src="https://raw.githubusercontent.com/harumhl/New-Austin-project/main/src/assets/shared_among_cities.png"
+        alt="shared_among_cities.png"
+        className="full-width-on-mobile"
+      ></img>
+      <br />
+      <img
         src="https://raw.githubusercontent.com/harumhl/New-Austin-project/main/src/assets/city_to_city.png"
         alt="city_to_city.png"
         className="full-width-on-mobile"

@@ -1,0 +1,16 @@
+<mxfile host="app.diagrams.net" modified="2023-12-29T22:15:30.312Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Khl4bOLNWei-eD6B6p7Q" version="22.1.16" type="device">
+  <diagram name="Page-1" id="zNQPjltQWeBeclRM8Xwi">
+    <mxGraphModel dx="1005" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XqFeGkBjHnRNmWFXuL38-13" value="&lt;b&gt;Shared area among towns 400 ft × 400 ft&lt;/b&gt;&lt;br&gt;&lt;i style=&quot;&quot;&gt;&lt;br&gt;For places we don&#39;t need in every town&lt;br&gt;&lt;br&gt;e.g.&lt;br&gt;archery, bowling, laser tags, karaoke,&amp;nbsp;&lt;br&gt;mini golf, bike shop,&amp;nbsp;&lt;br&gt;&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;imageWidth=72;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="320" y="270" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="XqFeGkBjHnRNmWFXuL38-4" value="100 ft&lt;br&gt;x&lt;br&gt;100 ft" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="190" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
